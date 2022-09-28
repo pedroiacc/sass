@@ -1,0 +1,32 @@
+//variables
+$color-letra: green;
+$font-letra: 'Courier New', Courier, monospace;
+$color-letra2: black;
+body{
+    background: red;
+}
+.h1{
+    color: $color-letra;
+}
+.lorem{
+    p{
+        color: $color-letra2;
+        font-family: $font-letra;
+    }
+}
+.holamundo{
+    h1{
+        color: aqua;
+        font-family: $font-letra;
+        padding: 5%;
+        margin: 10%;
+    }
+    p{
+        color: aqua;
+    }
+}
+.hola{
+    li{
+        list-style: none;
+    }
+}
